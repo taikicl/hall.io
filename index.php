@@ -17,6 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hall掲示板-Beta</title>
+    <link rel="icon" type="image/jpg" href="h.jpg">
     <style type="text/css">
         *{
             margin: 0;
