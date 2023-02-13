@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall | 公式サイト</title>
+</head>
+<body>
+    <style type="text/css">
+        .futer{
+            background: #4169e1;
+            opacity: 0.3;
+            color: #d3d3d3;
+            padding: 2px;
+            font-size: 50px;
+            animation: zoomIn 3s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+        }
+        @keyframes zoomIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+        }
+        .futer li{
+            margin: 30px 30px;
+            list-style: none;
+            display: inline;    
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            z-index: -1;
+        }
+        .tukuru{
+            margin-top: 300px;
+            font-size: 65px;
+            color: white;
+            padding-left: 500px;
+
+            /*タイピングのようなアニメーション*/
+            width: 23ch;
+            font: bold 300% Consolas, Monaco, monospace;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: 400;
+            border-right: 2px solid transparent;
+            animation: typing 3s steps(23), caret 0.3s steps(1) infinite;
+        }
+        @keyframes typing {
+            from {
+             width: 0;
+            }
+        }
+        @keyframes caret {
+            50% {
+            border-right-color: currentColor;
+            }
+        }
+        .senden{
+            padding: 500px;
+            text-align: center;
+        }
+        .senden h2{
+            padding-top: 200px;
+        }
+        .member{
+            padding-left: 300px;
+        }
+        .member li{
+            display: inline;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .member img{
+            padding-top: 20px;
+        }
+        .member h3{
+            font-size: 25px;
+        }
+        .member p{
+            font-size: 20px;
+        }
+    </style>
+    <div class="futer">
+        <ul>
+            <li class="home">HOME</li>
+            <li class="profile">Profile</li>
+            <li class="Discord">Discord</li>
+        </ul>
+    </div>
+    <div class="main">
+            <video src="hall.mp4" loop autoplay muted></video>
+            <div class="tukuru">ー創るを現実に。ー</div>
+    </div>
+    <div class="senden">
+        <h1>あなたの力が私たちを救う。</h1>
+        <p>想像してみよう。</p>
+        <p>Hallは強い人の集まりです。</p>
+        <p>あなたが加入することで大幅に未来を変えるかもしれません。</p>
+        <h2>ーさぁ、一歩足を前に...ー</h2>
+    </div>
+    <div class="member">
+        <!-- img source <img src="" alt="[画像]" width="65px" height="65px"> -->
+        <h3>Hall Reader</h3>
+        <hr>
+        <img src="https://cdn.discordapp.com/avatars/991262082236416020/d3fca7f477c2570b7381a86021754529.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>HACHIKOU</li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Hall Member</h3>
+        <hr>
+        <img src="https://cdn.discordapp.com/avatars/562987075326967809/40b5ffbfabb8513148d7914e82c8841b.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>AC10v</li>
+        <br>
+        <img src="https://cdn.discordapp.com/avatars/860850772072464414/814026a2c628933a8b39a7ae97cd342e.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>XXXmas</li>
+        <br>
+        <img src="https://cdn.discordapp.com/avatars/1064561273016172695/c46efe3d7431a0fff1fa9c7e745bc121.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>dfss</li>
+        <br>
+        <img src="https://cdn.discordapp.com/avatars/1048884458754940970/35507f39ab735bc1fb1965ebd3f3f0a0.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>wwwwwwwwwwww</li>
+        <br>
+        <img src="https://cdn.discordapp.com/avatars/1030845479677853726/744abe2b3231624a5f33be6f5335a674.webp?size=100" alt="[画像]" width="65px" height="65px">
+        <li>ryouda!</li>
+        <br>
+        <br>
+        <p>他、約90名...</p>
+
+
+    </div>
+</body>
+</html>
